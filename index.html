@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asdf.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="part one">
+        <div id="weather">
+          <div id="weather-icon"></div>
+          <p id="weather-what"></p>
+          <p id="weather-location"></p>
+        </div>
+      </div>
+      <div class="part two">
+        <div id="clock"></div>
+        <form class="hidden" id="login-form">
+          <input
+            id="login-input"
+            required
+            maxlength="10"
+            type="text"
+            placeholder="         What is your name?"
+          />
+          <input id="login-summit" type="submit" value="Log In" />
+        </form>
+        <h2 id="greeting" class="hidden"></h2>
+      </div>
+      <div class="part three">
+        <form id="todo-form">
+          <input
+            id="todo-input"
+            type="text"
+            placeholder="Write a To Do and Press Enter"
+            required
+          />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
+
+    <script src="greetings.js"></script>
+    <script src="clock.js"></script>
+    <script src="weather.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+  </body>
+</html>
