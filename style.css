@@ -1,0 +1,109 @@
+body {
+  background-size: 100%;
+}
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.part {
+  width: 600px;
+  height: 95vh;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+/*one*/
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#weather {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+/*two*/
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#clock {
+  width: 200px;
+  height: 150px;
+  font-size: 120px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+#login-form {
+  margin-top: 20px;
+}
+#login-input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border: none;
+  box-shadow: 0 2px rgb(206, 206, 206);
+  font-size: larger;
+}
+#login-summit {
+  width: 70px;
+  height: 37px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: white;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: rgb(206, 206, 206);
+}
+/*three*/
+.three {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#todo-input {
+  width: 370px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  border: none;
+  box-shadow: 0 2px rgb(206, 206, 206);
+  font-size: large;
+  color: white;
+}
+#todo-list {
+  margin: 10px 0;
+  font-size: large;
+  font-weight: bold;
+}
+.todo-button {
+  margin-left: 10px;
+  background-color: white;
+  border: none;
+  font-size: large;
+  background: transparent;
+  border: none;
+}
+ul {
+  line-height: 2;
+  padding-inline-start: 1.5em;
+  list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='25' width='25' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+  display: flex;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
